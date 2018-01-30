@@ -4,9 +4,9 @@ stockI = int(input('Nombre de gemmes Impériales en stock '))
 stockM = int(input('Nombre de gemmes Marquises en stock '))
 needRSD = int(input('\nNbre de gemmes Royales Sans Défaut voulues ? '))
 
-equiM = (stockM + stockI*3 + stockISD *9 + stockR*27)
-RSD_possible = equiM//81
-needM = needRSD*81 - equiM
+equiM = (stockM + stockI*3 + stockISD *9 + stockR*27) #equivalent du stock en nombre de gemme marquises
+RSD_possible = equiM//81 #nombre de gemmes Royales Sans Défaut créable avec le stock
+needM = needRSD*81 - equiM #gemmes marquisent manquantes
 
 #print ("Il est possible de faire %d gemmes Royales Sans Défaut" % RSD_possible)
 if (needM < 1):
