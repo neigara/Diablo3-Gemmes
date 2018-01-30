@@ -13,4 +13,4 @@ needM = needRSD*81 - equiM #gemmes Marquises manquantes
 if (needM < 1):
     print ("\nVous avez suffisement de gemmes Marquises pour faire %d gemmes Royales Sans Défaut" % needRSD)
 else:
-    print ("\nIl vous manque %d gemmes Marquises pour faire %d gemmes Royales Sans Défaut" % (needRSD, needM))
+    print ("\nIl vous manque %d gemmes Marquises pour faire %d gemmes Royales Sans Défaut" % (needM, needRSD))
